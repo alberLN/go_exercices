@@ -6,6 +6,11 @@ import "fmt"
 var y = 42
 var z = "This is a String"
 
+//custom type
+type test int
+
+var typeTest test = 99
+
 func main() {
 	fmt.Println("Hello world")
 	foo()
@@ -30,4 +35,6 @@ func vars() {
 	fmt.Printf("%T\n", y)
 	fmt.Println(z)
 	fmt.Printf("%T\n", z)
+	fmt.Println(typeTest)
+	fmt.Printf("%T\n", typeTest)
 }
